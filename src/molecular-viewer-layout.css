@@ -1,0 +1,25 @@
+.molecular-viewer{width:100%;min-width:0;overflow:hidden;background:#fff;border:1px solid var(--brand-border);border-radius:6px;box-shadow:0 12px 38px rgb(34 69 105 / 4%)}
+.molecular-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 20px 0;color:var(--brand-muted);font-size:10px;line-height:1.5;letter-spacing:.13em}
+.molecular-heading span:last-child{letter-spacing:.01em;font-size:11px}
+.molecular-stage{position:relative;width:100%;height:440px;background:#fff;isolation:isolate}
+.molecular-viewer-hero .molecular-stage{height:330px}
+.molecular-stage .molecular-canvas{position:relative;inset:auto;width:100%;height:100%;min-height:0;touch-action:none;outline-offset:-4px}
+.molecular-canvas canvas{display:block}
+.molecular-stage .molecular-poster{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;margin:0;background:#fff;pointer-events:none}
+.molecular-state-label{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);width:max-content;max-width:90%;padding:5px 10px;background:var(--brand-pale);color:var(--brand-ink);border-radius:3px;font-size:11px;text-align:center}
+.molecular-view-controls{display:flex;flex-wrap:wrap;gap:5px;padding:0 18px 12px;margin:0}
+.molecular-view-controls button{flex:1;white-space:nowrap;min-height:35px;padding:6px 9px;border:1px solid var(--brand-border);border-radius:3px;background:#fff;color:var(--brand-ink);font-family:inherit;font-weight:500;font-size:12px;line-height:1.4;letter-spacing:0}
+.molecular-view-controls button[aria-pressed=true]{background:var(--brand-pale);border-color:var(--brand-primary);color:var(--brand-primary)}
+.molecular-tools{display:flex;align-items:center;flex-wrap:wrap;gap:5px;padding:0 18px 14px;margin:0}
+.molecular-tools button{min-height:30px;padding:4px 8px;border:1px solid var(--brand-border);border-radius:3px;background:#fff;color:var(--brand-ink);font-size:11px;line-height:1.4;letter-spacing:0}
+.molecular-tools button[aria-label^=Zoom]{min-width:30px;font-size:15px}
+.molecular-tools span{margin-left:auto;color:var(--brand-muted);font-size:10px}
+.molecular-tools button:disabled,.molecular-view-controls button:disabled{cursor:default;opacity:.52}
+.molecular-caption{padding:12px 20px 15px;background:var(--brand-canvas);border-top:1px solid var(--brand-border)}
+.molecular-caption p{margin:0 0 5px;font-size:11px;line-height:1.55;color:var(--brand-muted)}
+.molecular-caption p:last-child{margin-bottom:0;font-size:10px}
+.molecular-caption a{color:var(--brand-action);text-decoration:none}
+.molecular-caption a:hover{text-decoration:underline}
+.molecular-caption .molecular-motion-note{font-size:10px}
+.molecular-viewer button:focus-visible,.molecular-canvas:focus-visible{outline:2px solid var(--brand-action);outline-offset:2px}
+@media(max-width:600px){.molecular-stage,.molecular-viewer-hero .molecular-stage{height:300px}.molecular-heading{padding:14px 14px 0}.molecular-view-controls{padding:0 12px 10px}.molecular-view-controls button{min-height:40px;flex-basis:40%}.molecular-tools{padding:0 12px 12px}.molecular-tools button{min-height:37px}.molecular-tools span{flex-basis:100%;margin:3px 0 0}.molecular-caption{padding:12px 14px}}

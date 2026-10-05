@@ -1,0 +1,170 @@
+[
+  {
+    "id": "local-01",
+    "filename": "2024.07.17.603955v3.full.pdf",
+    "pages": 20,
+    "sha256": "3a623cb36a8167265652baf34a5e1752a083856148581271e5780cfd390d1d21",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-02",
+    "filename": "2025.11.03.686215v2.full.pdf",
+    "pages": 60,
+    "sha256": "bee71b590fa17739ab45bf6425e33545d65b6cdc3e536397463c85ad0a07c6a5",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-03",
+    "filename": "2405.03961v2.pdf",
+    "pages": 18,
+    "sha256": "76295684439fab5c9c81b8945974f9b6b7d4e821ff92c123b09ca108dc65c098",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-04",
+    "filename": "2_target_aware_variational_auto_.pdf",
+    "pages": 14,
+    "sha256": "a6f2498b68ed427f69448788c9e6adf164141940f454a2d862e9e02ba3960ebf",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-05",
+    "filename": "Apo2Mol 3D Molecule Generation via Dynamic Pocket-Aware Diffusion Models.pdf",
+    "pages": 13,
+    "sha256": "78a395c64ba2e1a818df03c9b3f1e6c0037bddcf1e7cd453a1671025ddfd6476",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-06",
+    "filename": "Buttenschoen 等 - 2024 - PoseBusters AI-based docking methods fail to generate physically valid poses or generalise to novel.pdf",
+    "pages": 10,
+    "sha256": "7feb9a28b3a3da95dfa9ee16db1daf73c395a9402e413647eebd8063db69fd5a",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-07",
+    "filename": "Chen 等 - 2023 - Shape-conditioned 3D Molecule Generation via Equivariant Diffusion Models.pdf",
+    "pages": 19,
+    "sha256": "4b2f1691ae53e749575b2e995618383fdf68b40509decf7b63d879df546fdeb3",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-08",
+    "filename": "Cremer 等 - 2024 - PILOT equivariant diffusion for pocket-conditioned de novo ligand generation with multi-objective g.pdf",
+    "pages": 14,
+    "sha256": "d78da489b9c65490b324f661041188e7ee3d955b20f84a05b138cbc30ff2685a",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-09",
+    "filename": "Huang 等 - 2024 - A dual diffusion model enables 3D molecule generation and lead optimization based on target pockets.pdf",
+    "pages": 16,
+    "sha256": "fe5a01ea5a4716c5d0c06dab052c370fd136de0ab7828f331c7e96cba999da62",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-10",
+    "filename": "JCIM Electron Density based NCI Research JCIM 2022.pdf",
+    "pages": 10,
+    "sha256": "efb7d29656ad67e76e8ed12a8d3f1e8e29e93c635043e9a78f4b5f180935535b",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-11",
+    "filename": "Learning Subpocket Prototypes for Generalizable Structure-based Drug Design.pdf",
+    "pages": 17,
+    "sha256": "184f175c2c821e9d184a3325865e837c82994ba7275b583467dc7e14d93cc408",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-12",
+    "filename": "Li 等 - 2026 - De Novo Molecular Design via Shape-Constrained Diffusion Models.pdf",
+    "pages": 15,
+    "sha256": "cf83c5bc574a3424ca8accc64263a32f92abc88ce8ead9f364cf03f0d13eef4f",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-13",
+    "filename": "Ma 等 - 2021 - Structure-Based de Novo Molecular Generator Combined with Artificial Intelligence and Docking Simula.pdf",
+    "pages": 10,
+    "sha256": "d72d6c610a11740d17e7f140ae615d06ce41050892b98e947dd8af425c6e5c02",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-14",
+    "filename": "Mitnikov和Jacobson - 2024 - E3STO Orbital Inspired SE(3)-Equivariant Molecular Representation for Electron Density Prediction.pdf",
+    "pages": 14,
+    "sha256": "36bf1d2d86fb480c9ea3693324fd91d5e82aabf31da23d01f25f758b7992c04d",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-15",
+    "filename": "Moon 等 - 2022 - PIGNet a physics-informed deep learning model toward generalized drug–target interaction prediction.pdf",
+    "pages": 14,
+    "sha256": "153fab2cd4e0add0f7e7c3ecf2c0e7462be18f02de1dc5186e2104158d5d1574",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-16",
+    "filename": "PocketFlow is a data-and-knowledge-driven structure-based molecular generative model(科研通-ablesci.com).pdf",
+    "pages": 18,
+    "sha256": "b3a8e8cbf0e89b56a27cbcbca5a457ad20016a942eeba7e6746485a7f95b0482",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-17",
+    "filename": "ResGen is a pocket-aware 3D molecular generation model based on parallel multiscale modelling(科研通-ablesci.com).pdf",
+    "pages": 11,
+    "sha256": "eea7fb5d2cba8b9336cbbe56876359f2a2589bf0f77d2d5568619ae09ea9d48a",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-18",
+    "filename": "Zhang 等 - 2024 - FragGen towards 3D geometry reliable fragment-based molecular generation.pdf",
+    "pages": 14,
+    "sha256": "e845aa20f9a4e58d2cdb7f4e1a086ef0774a494291ecd3734d7fc51a68249135",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-19",
+    "filename": "Zhang 等 - 2026 - Steering semi-flexible molecular diffusion model for structure-based drug design with reinforcement.pdf",
+    "pages": 16,
+    "sha256": "d5e81a4412662d5f3cd28f27041c3d0e9812a95e8e0701b0192a99a6b1ea56b6",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-20",
+    "filename": "Zhong 等 - 2025 - SculptDrug  A Spatial Condition-Aware Bayesian Flow Model for Structure-based Drug Design.pdf",
+    "pages": 11,
+    "sha256": "0851657531f4fe2d900590b4ef781ab6deb91965e82041e6cb442103996b856b",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-21",
+    "filename": "acs.jcim.1c01319.pdf",
+    "pages": 10,
+    "sha256": "b9f0a2fe32bbd2121b9c7966b76ab93cfc32874b0d57fd3b63b79b98f03c44e7",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-22",
+    "filename": "main.pdf",
+    "pages": 11,
+    "sha256": "bda471e0b3daa69aad4cd7bda964e834f129067d54da4fab11cac2dde6500cbe",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-23",
+    "filename": "pocket2mol.pdf",
+    "pages": 12,
+    "sha256": "6bc95c6e735f63b52add22a598e02b3ba5654807df4812efd74f1e3d69965ba0",
+    "reviewTitleMatch": false
+  },
+  {
+    "id": "local-24",
+    "filename": "sciadv.aeb7045.pdf",
+    "pages": 12,
+    "sha256": "8c721e986d3e8f737e17cdeba66724e194e5268e0293ab04dce335825441b1e3",
+    "reviewTitleMatch": false
+  }
+]

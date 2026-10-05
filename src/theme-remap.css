@@ -1,0 +1,18 @@
+/* Generated locally by scripts/apply_dark_theme.mjs; structural CSS is retained in style.css. */
+:root{color:#e5e9e9;background:#111a25;--ink:#eeeee8;--teal:#d9bf96;--muted:#a6b4c4;--line:#2b3949;--paper:#111a25}button{background:#111a25}button.selected{background:#111a25;border-color:#58697c;color:#d9bf96}button[aria-pressed=true]{color:#d9bf96;background:#111a25}input,select{background:#111a25}input:focus,select:focus{outline:2px solid #2b3949}.brand-mark{border:1px solid #58697c}.brand-mark span{background:#111a25}.site-header nav>a{color:#b1bdcb}.count{background:#111a25}.primary,button.primary{color:#f0ede5}.primary:hover{color:#f0ede5}.hero-visual{background:linear-gradient(140deg,#111a25,#111a25)}.visual-label{color:#b1bdcb}.visual-flow{border-top:1px solid #2b3949;color:#b1bdcb}.notice{color:#b1bdcb;border-left:2px solid #2b3949}.footer{background:#111a25}.filters label{color:#b1bdcb}.scope-note{color:#b1bdcb;border:1px solid #2b3949}.pill{border:1px solid #2b3949;background:#111a25}.method-card h3 span{color:#b1bdcb}.method-card dt{color:#b1bdcb}.code-status{color:#b1bdcb}.compare-tray{box-shadow:0 12px 40px rgba(0,0,0,.16);background:#111a25}.toast{color:#f0ede5;box-shadow:0 12px 40px rgba(0,0,0,.16)}.toast button{color:#f0ede5}.locator{color:#b1bdcb}.claim-grid dt{color:#b1bdcb}.claim small{background:#111a25;color:#edb3a8}.guide-number{color:#b1bdcb}.source-list article>span{color:#b1bdcb}.knowledge-graph{background:#111a25}.method-key{background:#233348}.family-key{background:#192533}.task-key{background:#233348}.data-key{background:#233348}.skip:focus{background:#111a25}
+/* PocketLens 2.1: review-led navigation and configuration workflows */.lens-mark{background:#111a25}.lens-mark span{background:#111a25}.lens-home:hover{background:#111a25}.lens-mini i{border:1px solid #58697c;background:#111a25}.geometry .lens-mini:before,.geometry .lens-mini:after{border:1px solid #2b3949}.lens-mini b{border:1px solid #2b3949;background:#111a25}.lens-mini b:nth-child(2){border-color:#58697c}.lens-mini b:nth-child(3){border-color:#58697c;background:#111a25}.lens-mini em{border-top:2px solid #2b3949}.lens-mini em:nth-child(2){border-color:#58697c}.lens-mini em:nth-child(3){border-color:#58697c}.scenario-card>span{color:#b1bdcb}.evidence-walk{background:#111a25}.evidence-walk li>span{color:#b1bdcb}.lens-tabs a.active{background:#111a25}.theme-flow,.configuration-flow{border:1px solid #2b3949}.theme-flow>span,.configuration-flow>span{color:#b1bdcb}.facet summary span{background:#111a25}.facet fieldset label{color:#b1bdcb}.filter-chips button{background:#111a25;border-color:#2b3949}.explorer-guidance{border:1px solid #2b3949}.configuration-nav a.active{background:#111a25}.resource-role{border-left:2px solid #2b3949}
+
+/* Keep wide scientific comparisons inside their own scroll area. */
+
+/* Experimental structure imagery */
+.scientific-figure { border:1px solid #2b3949; background:#111a25; }
+.structure-image-link { background:#111a25; }
+.scientific-figure figcaption { border-top:1px solid #2b3949; }
+.structure-caption-title { color:#e5e9e9; }
+.scientific-figure figcaption p { color:#b1bdcb; }
+.structure-provenance,.structure-credit { color:#b1bdcb; }
+.structure-provenance a,.structure-credit a { color:#d9bf96; }
+.structure-lenses article { border:1px solid #2b3949; background:#111a25; }
+.structure-theme-link { color:#d9bf96; }
+.structure-theme-link span { color:#b1bdcb; }
+.structure-scope-note { color:#b1bdcb; }

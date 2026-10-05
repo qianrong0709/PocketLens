@@ -1,0 +1,18 @@
+/* Local WeChat palette applied to retained component styles. */
+:root{color:#172F48;background:#FFFFFF;--ink:#172F48;--teal:#41739D;--muted:#5B738D;--line:#DDE8F1;--paper:#FFFFFF}button{background:#FFFFFF}button.selected{background:#FFFFFF;border-color:#81A9CB;color:#41739D}button[aria-pressed=true]{color:#41739D;background:#FFFFFF}input,select{background:#FFFFFF}input:focus,select:focus{outline:2px solid #41739D}.brand-mark{border:1px solid #DDE8F1}.brand-mark span{background:#FFFFFF}.site-header nav>a{color:#41739D}.count{background:#FFFFFF}.primary,button.primary{color:#5B738D}.primary:hover{color:#5B738D}.hero-visual{background:linear-gradient(140deg,#FFFFFF,#FFFFFF)}.visual-label{color:#5B738D}.visual-flow{border-top:1px solid #DDE8F1;color:#172F48}.notice{color:#172F48;border-left:2px solid #DDE8F1}.footer{background:#FFFFFF}.filters label{color:#5B738D}.scope-note{color:#5B738D;border:1px solid #DDE8F1}.pill{border:1px solid #DDE8F1;background:#FFFFFF}.method-card h3 span{color:#5B738D}.method-card dt{color:#5B738D}.code-status{color:#172F48}.compare-tray{box-shadow:0 8px 35px rgba(30,65,110,0.065);background:#FFFFFF}.toast{color:#5B738D;box-shadow:0 4px 20px rgba(30,65,110,0.065)}.toast button{color:#5B738D}.locator{color:#5B738D}.claim-grid dt{color:#5B738D}.claim small{background:#FFFFFF;color:#5B738D}.guide-number{color:#5B738D}.source-list article>span{color:#5B738D}.knowledge-graph{background:#FFFFFF}.method-key{background:#FFFFFF}.family-key{background:#FFFFFF}.task-key{background:#FFFFFF}.data-key{background:#FFFFFF}.skip:focus{background:#FFFFFF}
+/* PocketLens 2.1: review-led navigation and configuration workflows */.lens-mark{background:#FFFFFF}.lens-mark span{background:#FFFFFF}.lens-home:hover{background:#F2F6F9}.lens-mini i{border:1px solid #DDE8F1;background:#FFFFFF}.geometry .lens-mini:before,.geometry .lens-mini:after{border:1px solid #DDE8F1}.lens-mini b{border:1px solid #DDE8F1;background:rgba(255,255,255,0.3764705882352941)}.lens-mini b:nth-child(2){border-color:#DDE8F1}.lens-mini b:nth-child(3){border-color:#DDE8F1;background:#F2F6F9}.lens-mini em{border-top:2px solid #DDE8F1}.lens-mini em:nth-child(2){border-color:#DDE8F1}.lens-mini em:nth-child(3){border-color:#DDE8F1}.scenario-card>span{color:#5B738D}.evidence-walk{background:#FFFFFF}.evidence-walk li>span{color:#5B738D}.lens-tabs a.active{background:#F2F6F9}.theme-flow,.configuration-flow{border:1px solid #DDE8F1}.theme-flow>span,.configuration-flow>span{color:#5B738D}.facet summary span{background:#FFFFFF}.facet fieldset label{color:#172F48}.filter-chips button{background:#F2F6F9;border-color:#81A9CB}.explorer-guidance{border:1px solid #DDE8F1}.configuration-nav a.active{background:#FFFFFF}.resource-role{border-left:2px solid #DDE8F1}
+
+/* Keep wide scientific comparisons inside their own scroll area. */
+
+/* Experimental structure imagery */
+.scientific-figure { border:1px solid #DDE8F1; background:#FFFFFF; }
+.structure-image-link { background:#FFFFFF; }
+.scientific-figure figcaption { border-top:1px solid #DDE8F1; }
+.structure-caption-title { color:#172F48; }
+.scientific-figure figcaption p { color:#172F48; }
+.structure-provenance,.structure-credit { color:#5B738D; }
+.structure-provenance a,.structure-credit a { color:#41739D; }
+.structure-lenses article { border:1px solid #DDE8F1; background:#FFFFFF; }
+.structure-theme-link { color:#41739D; }
+.structure-theme-link span { color:#41739D; }
+.structure-scope-note { color:#5B738D; }

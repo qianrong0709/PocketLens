@@ -1,0 +1,70 @@
+{
+  "createdAt": "2026-10-05",
+  "coordinateLicense": "CC0 1.0",
+  "coordinatePolicy": "https://www.wwpdb.org/about/usage-policies",
+  "structurePaper": "https://doi.org/10.1021/jm960402a",
+  "figures": [
+    {
+      "file": "cdk2-atp-overview.png",
+      "sources": [
+        "1HCK"
+      ],
+      "description": "Human CDK2 with ATP; experimental X-ray coordinates. Protein cartoon, pocket side chains and ATP sticks.",
+      "software": "PyMOL",
+      "softwareVersion": "2.5.0",
+      "rendering": "CPU ray tracing via cmd.png(ray=1)",
+      "size": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "file": "cdk2-pocket-geometry.png",
+      "sources": [
+        "1HCK"
+      ],
+      "description": "ATP and protein residues within 5 angstrom of ATP. Atom coordinates are experimental; colours identify atom types.",
+      "software": "PyMOL",
+      "softwareVersion": "2.5.0",
+      "rendering": "CPU ray tracing via cmd.png(ray=1)",
+      "size": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "file": "cdk2-pocket-surface.png",
+      "sources": [
+        "1HCK"
+      ],
+      "description": "Solvent-excluded protein molecular surface around ATP, coloured by element. This is a geometric surface; no electrostatic potential or electron-density map was calculated.",
+      "software": "PyMOL",
+      "softwareVersion": "2.5.0",
+      "rendering": "CPU ray tracing via cmd.png(ray=1)",
+      "size": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "file": "cdk2-apo-atp-overlay.png",
+      "sources": [
+        "1HCL",
+        "1HCK"
+      ],
+      "description": "Apo (copper, 1HCL) and ATP-bound (teal, 1HCK) CDK2 superposed using shared protein C-alpha atoms. Two static crystal structures, not a molecular-dynamics trajectory.",
+      "software": "PyMOL",
+      "softwareVersion": "2.5.0",
+      "rendering": "CPU ray tracing via cmd.png(ray=1)",
+      "size": [
+        1600,
+        1100
+      ],
+      "alignment": {
+        "method": "PyMOL align, C-alpha atoms, cycles=0",
+        "rmsdAngstrom": 0.326875776052475,
+        "alignedAtomCount": 294
+      }
+    }
+  ]
+}

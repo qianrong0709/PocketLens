@@ -1,0 +1,10 @@
+node_modules
+dist/
+qa/
+local-reference/
+sources/
+backups/
+.env
+.env.*
+*.zip
+.DS_Store

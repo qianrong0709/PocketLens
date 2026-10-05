@@ -1,0 +1,12 @@
+{
+  "primary": "#4B84B5",
+  "action": "#41739D",
+  "hover": "#38658D",
+  "ink": "#172F48",
+  "muted": "#5B738D",
+  "pale": "#F2F6F9",
+  "canvas": "#FBFCFD",
+  "border": "#DDE8F1",
+  "controlBorder": "#81A9CB",
+  "focus": "#41739D"
+}

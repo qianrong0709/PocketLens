@@ -1,0 +1,10 @@
+import raw from './atlas.json';
+export type Status = 'reported'|'inferred'|'unknown'|'not_reported';
+export type Claim<T = string> = {value:T; status:Status; sourceId:string; locator:string};
+export type Method = {id:string;name:string;title:string;year:number;framework:string;summary:string;sourceId:string;code:string;codeSourceId:string|null;repo:string|null;replication:string;localReferenceIds:string[]};
+export type Configuration = {id:string;methodId:string;label:string;task:Claim;representations:Claim<string[]>;inputs:Claim<string[]>;inputState:Claim;pocketTreatment:Claim;framework:Claim;outputs:Claim<string[]>;dataset:Claim;dockingProtocol:Claim;notes:string;evidence:{statement:string;sourceId:string;locator:string}[];limitations:string[]};
+export type Source = {id:string;title:string;url:string;version:string;kind:string;checked:string;localReferenceIds?:string[]};
+export const atlas = raw as unknown as {schemaVersion:string;version:string;curationDate:string;literatureCutoff:string;cutoffNote:string;reviewTitle:string;reviewStatus:string;methods:Method[];configurations:Configuration[];sources:Source[]};
+export const methods=atlas.methods, configurations=atlas.configurations, sources=atlas.sources;
+export const getMethod=(id:string)=>methods.find(m=>m.id===id)!;
+export const getSource=(id:string)=>sources.find(s=>s.id===id);

@@ -1,0 +1,33 @@
+{
+  "coordinateType": "Experimental X-ray coordinates; rigidly aligned static structures",
+  "sources": [
+    {
+      "pdb": "1HCK",
+      "url": "https://www.rcsb.org/structure/1HCK",
+      "state": "ATP-bound"
+    },
+    {
+      "pdb": "1HCL",
+      "url": "https://www.rcsb.org/structure/1HCL",
+      "state": "apo"
+    }
+  ],
+  "paper": "https://doi.org/10.1021/jm960402a",
+  "alignment": {
+    "method": "PyMOL align; shared protein C-alpha atoms; cycles=0",
+    "rmsdAngstrom": 0.326875776052475,
+    "alignedAtoms": 294
+  },
+  "motion": "Camera rotation only. No atomic trajectory, interpolation, dynamics simulation or generated ligand is included.",
+  "license": "PDB archive coordinates: CC0 1.0",
+  "files": [
+    {
+      "file": "cdk2-atp.pdb",
+      "sha256": "c0452894b548db4489ad45de11ed82a51dc72d0c22e685441456755d0c591bcf"
+    },
+    {
+      "file": "cdk2-apo-aligned.pdb",
+      "sha256": "50cc832a95ab85f60439ff5cd6da6dcd284c781aac4be2f40af4258f1cedbceb"
+    }
+  ]
+}

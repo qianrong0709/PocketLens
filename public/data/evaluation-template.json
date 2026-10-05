@@ -1,0 +1,13 @@
+{
+  "template": "PocketLens evaluation record",
+  "schemaVersion": "1.0",
+  "configurationId": "",
+  "question": "",
+  "source": {"sourceId": "", "version": "", "locator": ""},
+  "dataset": {"name": "", "release": "", "split": "", "leakageControls": ""},
+  "preparation": {"receptorState": "", "movableObjects": [], "protonation": "", "ligandPreparation": ""},
+  "protocol": {"metric": "", "softwareVersion": "", "poseStage": "", "dockingOperation": "unknown", "box": "", "seed": "", "exhaustiveness": "", "selectionRule": ""},
+  "result": {"value": null, "unit": "", "denominator": null, "aggregation": "", "uncertainty": ""},
+  "limitations": [],
+  "curation": {"status": "unknown", "checkedAt": "", "notes": ""}
+}

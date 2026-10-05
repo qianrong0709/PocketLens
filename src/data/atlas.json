@@ -1,0 +1,1973 @@
+{
+  "schemaVersion": "2.0",
+  "version": "2.1.0-local",
+  "curationDate": "2026-10-04",
+  "literatureCutoff": "2026-10-04",
+  "cutoffNote": "Curation cutoff for this seed collection; not a systematic literature search end date.",
+  "reviewTitle": "From Geometry towards Field and Dynamics: A Review of Pocket-Based 3D Molecular Generation",
+  "reviewStatus": "Manuscript supplied locally; exact chapter and table alignment is pending.",
+  "methods": [
+    {
+      "id": "pocket2mol",
+      "name": "Pocket2Mol",
+      "title": "Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets",
+      "year": 2022,
+      "framework": "Autoregressive",
+      "summary": "Adds ligand atoms, coordinates and bonds sequentially with an equivariant environment encoder.",
+      "sourceId": "pocket2mol-paper",
+      "code": "Public",
+      "codeSourceId": "pocket2mol-code",
+      "repo": "https://github.com/pengxingang/Pocket2Mol",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-23"
+      ]
+    },
+    {
+      "id": "resgen",
+      "name": "ResGen",
+      "title": "ResGen is a pocket-aware 3D molecular generation model based on parallel multiscale modelling",
+      "year": 2023,
+      "framework": "Autoregressive",
+      "summary": "Parallel atom and residue scales encode the pocket environment for molecular construction.",
+      "sourceId": "resgen-paper",
+      "code": "Public",
+      "codeSourceId": "resgen-code",
+      "repo": "https://github.com/OdinZhang/ResGen",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-17"
+      ]
+    },
+    {
+      "id": "apo2mol",
+      "name": "Apo2Mol",
+      "title": "Apo2Mol: 3D Molecule Generation via Dynamic Pocket-Aware Diffusion Models",
+      "year": 2026,
+      "framework": "Diffusion",
+      "summary": "Joint ligand and holo-like pocket generation from an apo structural condition.",
+      "sourceId": "apo2mol-paper",
+      "code": "Public",
+      "codeSourceId": "apo2mol-code",
+      "repo": "https://github.com/AIDD-LiLab/Apo2Mol",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-05"
+      ]
+    },
+    {
+      "id": "fraggen",
+      "name": "FragGen",
+      "title": "FragGen: towards 3D geometry reliable fragment-based molecular generation",
+      "year": 2024,
+      "framework": "Autoregressive",
+      "summary": "Fragment-wise construction separates geometry handling from the molecular encoder.",
+      "sourceId": "fraggen-paper",
+      "code": "Public",
+      "codeSourceId": "fraggen-code",
+      "repo": "https://github.com/OdinZhang/FragGen",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-18"
+      ]
+    },
+    {
+      "id": "pmdm",
+      "name": "PMDM",
+      "title": "A dual diffusion model enables 3D molecule generation and lead optimization based on target pockets",
+      "year": 2024,
+      "framework": "Diffusion",
+      "summary": "Local and global geometric kernels condition ligand generation on the protein.",
+      "sourceId": "pmdm-paper",
+      "code": "Public",
+      "codeSourceId": "pmdm-code",
+      "repo": "https://github.com/Layne-Huang/PMDM",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-09"
+      ]
+    },
+    {
+      "id": "pilot",
+      "name": "PILOT",
+      "title": "PILOT: Equivariant diffusion for pocket conditioned de novo ligand generation with multi-objective guidance via importance sampling",
+      "year": 2024,
+      "framework": "Diffusion",
+      "summary": "Equivariant diffusion combines pocket conditioning with pretraining and optional property guidance.",
+      "sourceId": "pilot-paper",
+      "code": "Public",
+      "codeSourceId": "pilot-code",
+      "repo": "https://github.com/jule-c/PILOT",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-08"
+      ]
+    },
+    {
+      "id": "pocketflow",
+      "name": "PocketFlow",
+      "title": "PocketFlow is a data-and-knowledge-driven structure-based molecular generative model",
+      "year": 2024,
+      "framework": "Normalizing flow + autoregressive",
+      "summary": "Chemical knowledge constrains stepwise atom and bond generation in a pocket.",
+      "sourceId": "pocketflow-paper",
+      "code": "Public",
+      "codeSourceId": "pocketflow-code",
+      "repo": "https://github.com/Saoge123/PocketFlow",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-16"
+      ]
+    },
+    {
+      "id": "druggps",
+      "name": "DrugGPS",
+      "title": "Learning Subpocket Prototypes for Generalizable Structure-based Drug Design",
+      "year": 2023,
+      "framework": "Autoregressive",
+      "summary": "Subpocket prototypes connect local protein environments to molecular motifs.",
+      "sourceId": "druggps-paper",
+      "code": "Public",
+      "codeSourceId": "druggps-code",
+      "repo": "https://github.com/zaixizhang/DrugGPS_ICML23",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-11"
+      ]
+    },
+    {
+      "id": "voxbind",
+      "name": "VoxBind",
+      "title": "Structure-based drug design by denoising voxel grids",
+      "year": 2024,
+      "framework": "Score-based walk-jump",
+      "summary": "Atomic density grids use conditional Langevin sampling followed by a voxel denoiser.",
+      "sourceId": "voxbind-paper",
+      "code": "Public",
+      "codeSourceId": "voxbind-code",
+      "repo": "https://github.com/Genentech/Voxbind",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-03"
+      ]
+    },
+    {
+      "id": "sculptdrug",
+      "name": "SculptDrug",
+      "title": "SculptDrug: A Spatial Condition-Aware Bayesian Flow Model for Structure-based Drug Design",
+      "year": 2025,
+      "framework": "Bayesian flow network",
+      "summary": "A surface-aware boundary block and hierarchical encoder provide spatial conditions.",
+      "sourceId": "sculptdrug-paper",
+      "code": "Unknown",
+      "codeSourceId": null,
+      "repo": null,
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-20"
+      ]
+    },
+    {
+      "id": "pidiff",
+      "name": "PIDiff",
+      "title": "PIDiff: Physics informed diffusion model for protein pocket-specific 3D molecular generation",
+      "year": 2024,
+      "framework": "Diffusion",
+      "summary": "Binding-energy principles augment geometric pocket-conditioned diffusion.",
+      "sourceId": "pidiff-paper",
+      "code": "Unknown",
+      "codeSourceId": null,
+      "repo": null,
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-22"
+      ]
+    },
+    {
+      "id": "yueldesign",
+      "name": "YuelDesign",
+      "title": "A diffusion-based framework for designing molecules in flexible protein pockets",
+      "year": 2026,
+      "framework": "Diffusion",
+      "summary": "Continuous coordinates and discrete ligand types are modeled jointly with an equivariant complex encoder.",
+      "sourceId": "yueldesign-paper",
+      "code": "Public",
+      "codeSourceId": "yueldesign-code",
+      "repo": "https://github.com/hust220/yuel_design",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-24"
+      ]
+    },
+    {
+      "id": "sefmol",
+      "name": "SeFMol",
+      "title": "Steering semi-flexible molecular diffusion model for structure-based drug design with reinforcement learning",
+      "year": 2026,
+      "framework": "Diffusion + reinforcement learning",
+      "summary": "Reinforcement learning steers ligand denoising and property-conditioned conformation exploration.",
+      "sourceId": "sefmol-paper",
+      "code": "Public",
+      "codeSourceId": "sefmol-code",
+      "repo": "https://github.com/ispc-lab/SeFMol",
+      "replication": "Not run by the Atlas",
+      "localReferenceIds": [
+        "local-19"
+      ]
+    }
+  ],
+  "configurations": [
+    {
+      "id": "pocket2mol-denovo",
+      "methodId": "pocket2mol",
+      "label": "De novo / atom growth",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Paper: model and sampling sections"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Paper: model and sampling sections"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Paper: model and sampling sections"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Paper: model and sampling sections"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Paper: model and sampling sections"
+      },
+      "framework": {
+        "value": "Autoregressive",
+        "status": "reported",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Paper: model and sampling sections"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pocket2mol-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Pocket localization and any reference used during preprocessing must be distinguished from generative conditions.",
+      "evidence": [
+        {
+          "statement": "Pocket-conditioned computational generation is evaluated; exact Vina mode remains uncurated.",
+          "sourceId": "pocket2mol-paper",
+          "locator": "Paper: model and sampling sections"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "resgen-denovo",
+      "methodId": "resgen",
+      "label": "De novo / multiscale",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "resgen-paper",
+        "locator": "Paper: parallel multiscale modelling; code README Generation"
+      },
+      "representations": {
+        "value": [
+          "Atom graph",
+          "Residue graph"
+        ],
+        "status": "reported",
+        "sourceId": "resgen-paper",
+        "locator": "Paper: parallel multiscale modelling; code README Generation"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "resgen-paper",
+        "locator": "Paper: parallel multiscale modelling; code README Generation"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "resgen-paper",
+        "locator": "Paper: parallel multiscale modelling; code README Generation"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "resgen-paper",
+        "locator": "Paper: parallel multiscale modelling; code README Generation"
+      },
+      "framework": {
+        "value": "Autoregressive",
+        "status": "reported",
+        "sourceId": "resgen-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "resgen-paper",
+        "locator": "Paper: parallel multiscale modelling; code README Generation"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "resgen-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "resgen-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "The repository example also takes an SDF file. Its role in pocket localization must be audited before claiming a protein-only end-to-end workflow.",
+      "evidence": [
+        {
+          "statement": "Pocket-aware generation is reported; benchmark input preparation is not a prospective validation.",
+          "sourceId": "resgen-paper",
+          "locator": "Paper: parallel multiscale modelling; code README Generation"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "apo2mol-prepared",
+      "methodId": "apo2mol",
+      "label": "Prepared apo pocket",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.1; paper §§4–5"
+      },
+      "representations": {
+        "value": [
+          "Atom graph",
+          "Residue graph"
+        ],
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.1; paper §§4–5"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Ligand atom count"
+        ],
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.1; paper §§4–5"
+      },
+      "inputState": {
+        "value": "Apo",
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.1; paper §§4–5"
+      },
+      "pocketTreatment": {
+        "value": "Joint pocket adjustment",
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.1; paper §§4–5"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "apo2mol-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand",
+          "Adjusted pocket"
+        ],
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.1; paper §§4–5"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "apo2mol-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "apo2mol-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Pocket must already be located. A denoising path does not establish a physical dynamical trajectory.",
+      "evidence": [
+        {
+          "statement": "Experimental apo–holo pairs support structural transition evaluation.",
+          "sourceId": "apo2mol-code",
+          "locator": "README §5.1; paper §§4–5"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "apo2mol-pair",
+      "methodId": "apo2mol",
+      "label": "Pocket extraction from apo–holo pair",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.2"
+      },
+      "representations": {
+        "value": [
+          "Atom graph",
+          "Residue graph"
+        ],
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.2"
+      },
+      "inputs": {
+        "value": [
+          "Apo protein",
+          "Holo protein",
+          "Reference ligand",
+          "Ligand atom count"
+        ],
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.2"
+      },
+      "inputState": {
+        "value": "Apo",
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.2"
+      },
+      "pocketTreatment": {
+        "value": "Joint pocket adjustment",
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.2"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "apo2mol-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand",
+          "Adjusted pocket"
+        ],
+        "status": "reported",
+        "sourceId": "apo2mol-code",
+        "locator": "README §5.2"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "apo2mol-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "apo2mol-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Holo structure and bound ligand locate/map the apo pocket; generation is conditioned on that mapped apo pocket.",
+      "evidence": [
+        {
+          "statement": "Separate the extraction workflow from prepared-apo inference.",
+          "sourceId": "apo2mol-code",
+          "locator": "README §5.2"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "fraggen-dihedral",
+      "methodId": "fraggen",
+      "label": "Dihedral prediction variant",
+      "task": {
+        "value": "Fragment-based generation",
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Fragment vocabulary"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "framework": {
+        "value": "Autoregressive",
+        "status": "reported",
+        "sourceId": "fraggen-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Variant-specific benchmark results must stay attached to this geometry configuration.",
+      "evidence": [
+        {
+          "statement": "Three geometry variants are explicitly distinguished in the official implementation.",
+          "sourceId": "fraggen-code",
+          "locator": "Official README: three model versions; paper geometry handling"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "fraggen-geomgnn",
+      "methodId": "fraggen",
+      "label": "GeomGNN variant",
+      "task": {
+        "value": "Fragment-based generation",
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Fragment vocabulary"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "framework": {
+        "value": "Autoregressive",
+        "status": "reported",
+        "sourceId": "fraggen-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Variant-specific benchmark results must stay attached to this geometry configuration.",
+      "evidence": [
+        {
+          "statement": "Three geometry variants are explicitly distinguished in the official implementation.",
+          "sourceId": "fraggen-code",
+          "locator": "Official README: three model versions; paper geometry handling"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "fraggen-geomopt",
+      "methodId": "fraggen",
+      "label": "GeomOPT variant",
+      "task": {
+        "value": "Fragment-based generation",
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Fragment vocabulary"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "framework": {
+        "value": "Autoregressive",
+        "status": "reported",
+        "sourceId": "fraggen-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "fraggen-code",
+        "locator": "Official README: three model versions; paper geometry handling"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "fraggen-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Variant-specific benchmark results must stay attached to this geometry configuration.",
+      "evidence": [
+        {
+          "statement": "Three geometry variants are explicitly distinguished in the official implementation.",
+          "sourceId": "fraggen-code",
+          "locator": "Official README: three model versions; paper geometry handling"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "pmdm-denovo",
+      "methodId": "pmdm",
+      "label": "De novo / dual diffusion",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Methods: PMDM; Results: molecular quality"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Methods: PMDM; Results: molecular quality"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Methods: PMDM; Results: molecular quality"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Methods: PMDM; Results: molecular quality"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Methods: PMDM; Results: molecular quality"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Methods: PMDM; Results: molecular quality"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Lead optimization is a distinct reported task and is not used to annotate this de novo configuration.",
+      "evidence": [
+        {
+          "statement": "Computational quality metrics and target-conditioned generation are reported.",
+          "sourceId": "pmdm-paper",
+          "locator": "Methods: PMDM; Results: molecular quality"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "pmdm-lead",
+      "methodId": "pmdm",
+      "label": "Lead optimization / details pending",
+      "task": {
+        "value": "Lead optimization",
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Lead optimization section"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Lead optimization section"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Reference ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Lead optimization section"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Lead optimization section"
+      },
+      "pocketTreatment": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Lead optimization section"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pmdm-paper",
+        "locator": "Lead optimization section"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pmdm-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Task existence is verified. Which atoms are fixed and which are regenerated is unknown in this record.",
+      "evidence": [
+        {
+          "statement": "Lead optimization is reported separately.",
+          "sourceId": "pmdm-paper",
+          "locator": "Lead optimization section"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "pilot-base",
+      "methodId": "pilot",
+      "label": "Pocket-conditioned / unguided",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; pocket-conditioned generation"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; pocket-conditioned generation"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; pocket-conditioned generation"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; pocket-conditioned generation"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; pocket-conditioned generation"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; pocket-conditioned generation"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pilot-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pilot-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Guided sampling capabilities are recorded in their own configuration.",
+      "evidence": [
+        {
+          "statement": "Pocket-conditioned generation is reported.",
+          "sourceId": "pilot-paper",
+          "locator": "Abstract; pocket-conditioned generation"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "pilot-guided",
+      "methodId": "pilot",
+      "label": "Multi-objective guidance",
+      "task": {
+        "value": "Property-guided generation",
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; multi-objective importance sampling"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; multi-objective importance sampling"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Property objectives",
+          "Guidance predictors"
+        ],
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; multi-objective importance sampling"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; multi-objective importance sampling"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; multi-objective importance sampling"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pilot-paper",
+        "locator": "Abstract; multi-objective importance sampling"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pilot-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pilot-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Predictor and objective choices are configuration-dependent; versions remain unknown.",
+      "evidence": [
+        {
+          "statement": "Importance sampling supplies property guidance.",
+          "sourceId": "pilot-paper",
+          "locator": "Abstract; multi-objective importance sampling"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "pocketflow-denovo",
+      "methodId": "pocketflow",
+      "label": "De novo / knowledge-guided flow",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "pocketflow-paper",
+        "locator": "Fig. 1; architecture; experimental applications"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pocketflow-paper",
+        "locator": "Fig. 1; architecture; experimental applications"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "pocketflow-paper",
+        "locator": "Fig. 1; architecture; experimental applications"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pocketflow-paper",
+        "locator": "Fig. 1; architecture; experimental applications"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "pocketflow-paper",
+        "locator": "Fig. 1; architecture; experimental applications"
+      },
+      "framework": {
+        "value": "Normalizing flow + autoregressive",
+        "status": "reported",
+        "sourceId": "pocketflow-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pocketflow-paper",
+        "locator": "Fig. 1; architecture; experimental applications"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pocketflow-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pocketflow-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "This is the 2024 ligand generator, distinct from the same-name protein-pocket generator and LLM framework.",
+      "evidence": [
+        {
+          "statement": "Selected HAT1/YTHDC1 compounds underwent experimental validation; this does not validate every sample.",
+          "sourceId": "pocketflow-paper",
+          "locator": "Fig. 1; architecture; experimental applications"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "druggps-motif",
+      "methodId": "druggps",
+      "label": "Motif-based / subpocket prototypes",
+      "task": {
+        "value": "Fragment-based generation",
+        "status": "reported",
+        "sourceId": "druggps-paper",
+        "locator": "Abstract; hierarchical encoder and motif generation"
+      },
+      "representations": {
+        "value": [
+          "Atom graph",
+          "Residue graph",
+          "Subpocket prototypes"
+        ],
+        "status": "reported",
+        "sourceId": "druggps-paper",
+        "locator": "Abstract; hierarchical encoder and motif generation"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Learned motif vocabulary"
+        ],
+        "status": "reported",
+        "sourceId": "druggps-paper",
+        "locator": "Abstract; hierarchical encoder and motif generation"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "druggps-paper",
+        "locator": "Abstract; hierarchical encoder and motif generation"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "druggps-paper",
+        "locator": "Abstract; hierarchical encoder and motif generation"
+      },
+      "framework": {
+        "value": "Autoregressive",
+        "status": "reported",
+        "sourceId": "druggps-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "druggps-paper",
+        "locator": "Abstract; hierarchical encoder and motif generation"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "druggps-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "druggps-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Learned prototypes are training resources rather than a user-supplied reference ligand.",
+      "evidence": [
+        {
+          "statement": "Out-of-distribution pocket experiments are reported.",
+          "sourceId": "druggps-paper",
+          "locator": "Abstract; hierarchical encoder and motif generation"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "voxbind-denovo",
+      "methodId": "voxbind",
+      "label": "De novo / walk-jump",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §§4–5; walk-jump description"
+      },
+      "representations": {
+        "value": [
+          "Voxel density"
+        ],
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §§4–5; walk-jump description"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §§4–5; walk-jump description"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "voxbind-code",
+        "locator": "README §§4–5; walk-jump description"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §§4–5; walk-jump description"
+      },
+      "framework": {
+        "value": "Score-based walk-jump",
+        "status": "reported",
+        "sourceId": "voxbind-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §§4–5; walk-jump description"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "voxbind-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "voxbind-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Voxel density is a representation; it does not by itself imply an electronic density or physical energy field.",
+      "evidence": [
+        {
+          "statement": "Protein-conditioned voxel generation is demonstrated.",
+          "sourceId": "voxbind-code",
+          "locator": "README §§4–5; walk-jump description"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "voxbind-seed",
+      "methodId": "voxbind",
+      "label": "Ligand-initialized Langevin chain",
+      "task": {
+        "value": "Ligand-seeded generation",
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §5: wjs.chain_init=ligand"
+      },
+      "representations": {
+        "value": [
+          "Voxel density"
+        ],
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §5: wjs.chain_init=ligand"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Reference ligand"
+        ],
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §5: wjs.chain_init=ligand"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "voxbind-code",
+        "locator": "README §5: wjs.chain_init=ligand"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket",
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §5: wjs.chain_init=ligand"
+      },
+      "framework": {
+        "value": "Score-based walk-jump",
+        "status": "reported",
+        "sourceId": "voxbind-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "voxbind-code",
+        "locator": "README §5: wjs.chain_init=ligand"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "voxbind-code",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "voxbind-code",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Reference ligand initializes the chain in this configuration. It must not be silently merged with de novo inference.",
+      "evidence": [
+        {
+          "statement": "A ligand-initialized sampling example is supplied.",
+          "sourceId": "voxbind-code",
+          "locator": "README §5: wjs.chain_init=ligand"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "sculptdrug-denovo",
+      "methodId": "sculptdrug",
+      "label": "De novo / spatial boundaries",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Abstract: boundary block and hierarchical encoder"
+      },
+      "representations": {
+        "value": [
+          "Atom graph",
+          "Surface constraints"
+        ],
+        "status": "reported",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Abstract: boundary block and hierarchical encoder"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Abstract: boundary block and hierarchical encoder"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Abstract: boundary block and hierarchical encoder"
+      },
+      "pocketTreatment": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Abstract: boundary block and hierarchical encoder"
+      },
+      "framework": {
+        "value": "Bayesian flow network",
+        "status": "reported",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Abstract: boundary block and hierarchical encoder"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sculptdrug-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Surface constraints and the Bayesian flow framework are verified. Exact pocket update and surface preprocessing details remain unknown.",
+      "evidence": [
+        {
+          "statement": "CrossDocked computational experiments are reported.",
+          "sourceId": "sculptdrug-paper",
+          "locator": "Abstract: boundary block and hierarchical encoder"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "pidiff-denovo",
+      "methodId": "pidiff",
+      "label": "Physics-informed generation",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "pidiff-paper",
+        "locator": "Abstract; physics-informed model"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "pidiff-paper",
+        "locator": "Abstract; physics-informed model"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "pidiff-paper",
+        "locator": "Abstract; physics-informed model"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pidiff-paper",
+        "locator": "Abstract; physics-informed model"
+      },
+      "pocketTreatment": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pidiff-paper",
+        "locator": "Abstract; physics-informed model"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "pidiff-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "pidiff-paper",
+        "locator": "Abstract; physics-informed model"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pidiff-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "pidiff-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Energy-informed generation does not establish calibrated binding free energies or pocket dynamics.",
+      "evidence": [
+        {
+          "statement": "CrossDocked2020 experiments are reported.",
+          "sourceId": "pidiff-paper",
+          "locator": "Abstract; physics-informed model"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "yueldesign-joint",
+      "methodId": "yueldesign",
+      "label": "Joint protein–ligand diffusion",
+      "task": {
+        "value": "De novo",
+        "status": "reported",
+        "sourceId": "yueldesign-paper",
+        "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "yueldesign-paper",
+        "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket"
+        ],
+        "status": "reported",
+        "sourceId": "yueldesign-paper",
+        "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "yueldesign-paper",
+        "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+      },
+      "pocketTreatment": {
+        "value": "Joint pocket adjustment",
+        "status": "reported",
+        "sourceId": "yueldesign-paper",
+        "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+      },
+      "framework": {
+        "value": "Diffusion",
+        "status": "reported",
+        "sourceId": "yueldesign-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand",
+          "Adjusted pocket"
+        ],
+        "status": "reported",
+        "sourceId": "yueldesign-paper",
+        "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "yueldesign-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "yueldesign-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Exact movable atom masks and backbone constraints are pending audit; no claim of MD trajectory generation is made.",
+      "evidence": [
+        {
+          "statement": "Generated pocket structural quality is evaluated.",
+          "sourceId": "yueldesign-paper",
+          "locator": "Materials and Methods: molecular generation framework; pocket quality evaluation"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    },
+    {
+      "id": "sefmol-rl",
+      "methodId": "sefmol",
+      "label": "RL-steered semi-flexible ligand",
+      "task": {
+        "value": "Property-guided generation",
+        "status": "reported",
+        "sourceId": "sefmol-paper",
+        "locator": "Introduction: semi-flexible optimization for a fixed protein"
+      },
+      "representations": {
+        "value": [
+          "Atom graph"
+        ],
+        "status": "reported",
+        "sourceId": "sefmol-paper",
+        "locator": "Introduction: semi-flexible optimization for a fixed protein"
+      },
+      "inputs": {
+        "value": [
+          "Prepared protein pocket",
+          "Property objectives"
+        ],
+        "status": "reported",
+        "sourceId": "sefmol-paper",
+        "locator": "Introduction: semi-flexible optimization for a fixed protein"
+      },
+      "inputState": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sefmol-paper",
+        "locator": "Introduction: semi-flexible optimization for a fixed protein"
+      },
+      "pocketTreatment": {
+        "value": "Fixed pocket / ligand flexibility",
+        "status": "reported",
+        "sourceId": "sefmol-paper",
+        "locator": "Introduction: semi-flexible optimization for a fixed protein"
+      },
+      "framework": {
+        "value": "Diffusion + reinforcement learning",
+        "status": "reported",
+        "sourceId": "sefmol-paper",
+        "locator": "Method / abstract"
+      },
+      "outputs": {
+        "value": [
+          "3D ligand"
+        ],
+        "status": "reported",
+        "sourceId": "sefmol-paper",
+        "locator": "Introduction: semi-flexible optimization for a fixed protein"
+      },
+      "dataset": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sefmol-paper",
+        "locator": "Dataset split and release not audited"
+      },
+      "dockingProtocol": {
+        "value": "Unknown",
+        "status": "unknown",
+        "sourceId": "sefmol-paper",
+        "locator": "Exact score / minimize / dock mode not audited"
+      },
+      "notes": "Semi-flexible refers to ligand degrees of freedom in a fixed protein. It is not evidence of protein side-chain or backbone generation.",
+      "evidence": [
+        {
+          "statement": "Docking, property and interaction analyses are reported.",
+          "sourceId": "sefmol-paper",
+          "locator": "Introduction: semi-flexible optimization for a fixed protein"
+        }
+      ],
+      "limitations": [
+        "Protocol settings and exact data split require further curation. No cross-paper performance ranking is implied."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "pocket2mol-paper",
+      "title": "Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets",
+      "url": "https://proceedings.mlr.press/v162/peng22b.html",
+      "version": "ICML 2022 / PMLR 162",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-23"
+      ]
+    },
+    {
+      "id": "pocket2mol-code",
+      "title": "Pocket2Mol official code",
+      "url": "https://github.com/pengxingang/Pocket2Mol",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "resgen-paper",
+      "title": "ResGen is a pocket-aware 3D molecular generation model based on parallel multiscale modelling",
+      "url": "https://www.nature.com/articles/s42256-023-00712-7",
+      "version": "Nature Machine Intelligence 2023",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-17"
+      ]
+    },
+    {
+      "id": "resgen-code",
+      "title": "ResGen official code",
+      "url": "https://github.com/OdinZhang/ResGen",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "apo2mol-paper",
+      "title": "Apo2Mol: 3D Molecule Generation via Dynamic Pocket-Aware Diffusion Models",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13152035/",
+      "version": "AAAI 2026; paper-of-record DOI 10.1609/aaai.v40i2.37138",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-05"
+      ]
+    },
+    {
+      "id": "apo2mol-code",
+      "title": "Apo2Mol official code",
+      "url": "https://github.com/AIDD-LiLab/Apo2Mol",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "fraggen-paper",
+      "title": "FragGen: towards 3D geometry reliable fragment-based molecular generation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11575641/",
+      "version": "Chemical Science 2024",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-18"
+      ]
+    },
+    {
+      "id": "fraggen-code",
+      "title": "FragGen official code",
+      "url": "https://github.com/OdinZhang/FragGen",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "pmdm-paper",
+      "title": "A dual diffusion model enables 3D molecule generation and lead optimization based on target pockets",
+      "url": "https://www.nature.com/articles/s41467-024-46569-1",
+      "version": "Nature Communications 2024; DOI 10.1038/s41467-024-46569-1",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-09"
+      ]
+    },
+    {
+      "id": "pmdm-code",
+      "title": "PMDM official code",
+      "url": "https://github.com/Layne-Huang/PMDM",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "pilot-paper",
+      "title": "PILOT: Equivariant diffusion for pocket conditioned de novo ligand generation with multi-objective guidance via importance sampling",
+      "url": "https://arxiv.org/abs/2405.14925",
+      "version": "arXiv:2405.14925 (2024 preprint identity)",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-08"
+      ]
+    },
+    {
+      "id": "pilot-code",
+      "title": "PILOT official code",
+      "url": "https://github.com/jule-c/PILOT",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "pocketflow-paper",
+      "title": "PocketFlow is a data-and-knowledge-driven structure-based molecular generative model",
+      "url": "https://www.nature.com/articles/s42256-024-00808-8",
+      "version": "Nature Machine Intelligence 2024; DOI 10.1038/s42256-024-00808-8",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-16"
+      ]
+    },
+    {
+      "id": "pocketflow-code",
+      "title": "PocketFlow official code",
+      "url": "https://github.com/Saoge123/PocketFlow",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "druggps-paper",
+      "title": "Learning Subpocket Prototypes for Generalizable Structure-based Drug Design",
+      "url": "https://arxiv.org/abs/2305.13997",
+      "version": "ICML 2023 / arXiv:2305.13997",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-11"
+      ]
+    },
+    {
+      "id": "druggps-code",
+      "title": "DrugGPS official code",
+      "url": "https://github.com/zaixizhang/DrugGPS_ICML23",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "voxbind-paper",
+      "title": "Structure-based drug design by denoising voxel grids",
+      "url": "https://arxiv.org/abs/2405.03961",
+      "version": "ICML 2024 / arXiv:2405.03961",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-03"
+      ]
+    },
+    {
+      "id": "voxbind-code",
+      "title": "VoxBind official code",
+      "url": "https://github.com/Genentech/Voxbind",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "sculptdrug-paper",
+      "title": "SculptDrug: A Spatial Condition-Aware Bayesian Flow Model for Structure-based Drug Design",
+      "url": "https://arxiv.org/abs/2511.12489",
+      "version": "arXiv:2511.12489 (2025); AAAI 2026 DOI 10.1609/aaai.v40i2.37139",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-20"
+      ]
+    },
+    {
+      "id": "pidiff-paper",
+      "title": "PIDiff: Physics informed diffusion model for protein pocket-specific 3D molecular generation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010482524009508",
+      "version": "Computers in Biology and Medicine 180, 108865 (2024)",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-22"
+      ]
+    },
+    {
+      "id": "yueldesign-paper",
+      "title": "A diffusion-based framework for designing molecules in flexible protein pockets",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060587/",
+      "version": "Science Advances 2026; accessible full text",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-24"
+      ]
+    },
+    {
+      "id": "yueldesign-code",
+      "title": "YuelDesign official code",
+      "url": "https://github.com/hust220/yuel_design",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "sefmol-paper",
+      "title": "Steering semi-flexible molecular diffusion model for structure-based drug design with reinforcement learning",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13082329/",
+      "version": "Science Advances 2026; DOI 10.1126/sciadv.ady9955",
+      "kind": "paper",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-19"
+      ]
+    },
+    {
+      "id": "sefmol-code",
+      "title": "SeFMol official code",
+      "url": "https://github.com/ispc-lab/SeFMol",
+      "version": "README accessed 2026-10-04",
+      "kind": "code",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "posebusters",
+      "title": "PoseBusters: AI-based docking methods fail to generate physically valid poses or generalise to novel sequences",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2024/sc/d3sc04185a",
+      "version": "Chemical Science 2024; DOI 10.1039/D3SC04185A",
+      "kind": "evaluation",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-06"
+      ]
+    },
+    {
+      "id": "plinder",
+      "title": "PLINDER: The protein-ligand interactions dataset and evaluation resource",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603955v3",
+      "version": "bioRxiv DOI 10.1101/2024.07.17.603955; v3 local reference",
+      "kind": "dataset",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-01"
+      ]
+    },
+    {
+      "id": "molgenbench",
+      "title": "Benchmarking Real-World Applicability of Molecular Generative Models from De novo Design to Lead Optimization with MolGenBench",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686215v2.full",
+      "version": "bioRxiv DOI 10.1101/2025.11.03.686215; v2",
+      "kind": "benchmark",
+      "checked": "2026-10-04",
+      "localReferenceIds": [
+        "local-02"
+      ]
+    },
+    {
+      "id": "vina",
+      "title": "AutoDock Vina: Python scoring, optimization and docking",
+      "url": "https://autodock-vina.readthedocs.io/en/latest/docking_python.html",
+      "version": "Official documentation accessed 2026-10-04",
+      "kind": "documentation",
+      "checked": "2026-10-04",
+      "localReferenceIds": []
+    },
+    {
+      "id": "plif",
+      "title": "Assessing interaction recovery of predicted protein-ligand poses",
+      "url": "https://arxiv.org/abs/2409.20227",
+      "version": "arXiv:2409.20227 (2024)",
+      "kind": "evaluation",
+      "checked": "2026-10-04",
+      "localReferenceIds": []
+    }
+  ],
+  "siteName": "PocketLens",
+  "siteUpdatedAt": "2026-10-05"
+}
